@@ -59,8 +59,6 @@ export class DynamicPageComponent {
     return formArray.controls[index].errors && formArray.controls[index].touched;
   }
 
-
-
   onAddToFavorites () {
 
     if( this.newFavorite.invalid ) return;
